@@ -1,7 +1,7 @@
 - title t('.title')
 
 - content_for :head do
-  = include_javascripts :asset_collections
+  = javascript_include_tag "asset_collections"
 
 - content_for :submenu do
   = render 'admin/shared/menu/assets'
