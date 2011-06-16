@@ -64,7 +64,7 @@ module Locomotive
           'current_page'      => self.params[:page],
           'params'            => self.params,
           'url'               => request.url
-        }.merge(flash.stringify_keys) # data from api
+        }.merge(flash.to_hash) # data from api
 
         if @page.templatized? # add instance from content type
           assigns['content_instance'] = @content_instance
