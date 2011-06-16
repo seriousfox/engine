@@ -4,7 +4,7 @@
 - title t('.title')
 
 - content_for :head do
-  = include_stylesheets :installation
+  = stylesheet_link_tag "installation"
 
 - if @step_done.blank?
   = semantic_form_for(@account, :url => admin_installation_step_url(1)) do |f|

@@ -4,12 +4,12 @@
 
 %meta{ :name => 'locale', :content => I18n.locale }
 
-= include_javascripts :common
+= javascript_include_tag "common"
 
-= include_stylesheets :common, :media => 'screen'
+= stylesheet_link_tag "common", :media => 'screen'
 
 / [if IE]
-  = include_stylesheets :ie, :media => 'screen'
+  = stylesheet_link_tag "ie", :media => 'screen'
 
 %script{ :type => 'text/javascript' }
   = find_and_preserve(growl_message)

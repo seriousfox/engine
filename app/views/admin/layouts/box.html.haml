@@ -4,11 +4,11 @@
   %head
     %title= yield(:head_title) || escape_once("#{Locomotive.config.name} &mdash; #{current_site.name}")
 
-    = include_javascripts :box
-    = include_stylesheets :box, :media => 'screen'
+    = javascript_include_tag "box"
+    = stylesheet_link_tag "box", :media => 'screen'
 
     / [if IE]
-      = include_stylesheets :ie, :media => 'screen'
+      = stylesheet_link_tag "ie", :media => 'screen'
 
     = yield :head
 
