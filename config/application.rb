@@ -6,7 +6,7 @@ require "active_resource/railtie"
 require "mongoid/railtie"
 
 # Auto-require default libraries and those for the current Rails environment.
-Bundler.require :default, Rails.env
+Bundler.require(:default, Rails.env) if defined?(Bundler)
 
 module Locomotive
   class Application < Rails::Application
@@ -44,7 +44,10 @@ module Locomotive
     config.encoding = "utf-8"
 
     # Configure sensitive parameters which will be filtered from the log file.
-    config.filter_parameters << :password
+    config.filter_parameters += [:password]
+    
+    # Enable the asset pipeline
+    config.assets.enabled = true
 
     config.middleware.insert_after Rack::Lock, '::Locomotive::Middlewares::Fonts', :path => %r{^/fonts}
   end
