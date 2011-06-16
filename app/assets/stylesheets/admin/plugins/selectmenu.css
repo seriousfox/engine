@@ -37,14 +37,14 @@
   overflow: visible;
 }
 
-#site-selector-button .ui-icon { background: transparent url("/images/admin/plugins/selectmenu/arrow.png") repeat 0 0; height: 9px; width: 15px; }
-#site-selector-button.ui-state-active .ui-icon { background: transparent url("/images/admin/plugins/selectmenu/arrow.png") repeat 0 -9px; }
+#site-selector-button .ui-icon { background: transparent url("/assets/admin/plugins/selectmenu/arrow.png") repeat 0 0; height: 9px; width: 15px; }
+#site-selector-button.ui-state-active .ui-icon { background: transparent url("/assets/admin/plugins/selectmenu/arrow.png") repeat 0 -9px; }
 
 #site-selector-button .ui-selectmenu-status { padding: 0px; line-height: 1em; float: left; }
 #site-selector-button .ui-selectmenu-icon { float: left; margin: 11px 0 0 10px; position: static; top: 0px; left: 0px; }
 
 #site-selector-menu {
-  background: transparent url("/images/admin/plugins/selectmenu/background.png") repeat 0 0;
+  background: transparent url("/assets/admin/plugins/selectmenu/background.png") repeat 0 0;
   border: 1px solid transparent;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
