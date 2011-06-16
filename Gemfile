@@ -24,7 +24,7 @@ gem 'will_paginate', "~> 2.3.15"
 
 gem 'haml', '3.1.2'
 gem 'locomotive_liquid', '2.2.2', :require => 'liquid'
-gem 'formtastic', '~> 1.2.3'
+gem 'formtastic', '~> 2.0.0.rc2'
 gem 'inherited_resources', '~> 1.1.2'
 
 gem 'rmagick', '2.12.2'

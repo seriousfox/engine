@@ -1,6 +1,6 @@
 module Locomotive
-  class MiscFormBuilder < Formtastic::SemanticFormBuilder
-
+  class MiscFormBuilder < Formtastic::FormBuilder
+    
     @@all_fields_required_by_default = false
 
     def foldable_inputs(*args, &block)

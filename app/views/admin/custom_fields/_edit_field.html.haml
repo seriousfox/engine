@@ -3,7 +3,7 @@
     %h2!= t('.title')
 
     = form_tag '#', :class => 'formtastic' do
-      = fields_for CustomFields::Field.new, :builder => Formtastic::SemanticFormHelper.builder do |g|
+      = fields_for CustomFields::Field.new, :builder => Formtastic::Helpers::FormHelper.builder do |g|
         = g.inputs :name => :attributes do
           = g.input :_alias
           = g.input :hint
