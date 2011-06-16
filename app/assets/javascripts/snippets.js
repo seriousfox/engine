@@ -1,0 +1,1 @@
+//= admin/snippets.js
