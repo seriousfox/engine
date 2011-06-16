@@ -1,4 +1,4 @@
-//= admin/plugins/fancybox.js
-//= admin/plugins/mustache.js
-//= admin/custom_fields.js
-//= admin/asset_collections.js
+//= require admin/plugins/fancybox
+//= require admin/plugins/mustache
+//= require admin/custom_fields
+//= require admin/asset_collections

@@ -1,2 +1,4 @@
-//= admin/plugins/fancybox.css
-//= admin/fancybox_changes.css
+/*
+*= require admin/plugins/fancybox
+*= require admin/fancybox_changes
+*/
