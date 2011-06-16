@@ -1,1 +1,1 @@
-//= admin/assets.js
+//= require admin/assets

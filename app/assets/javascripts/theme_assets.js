@@ -1,1 +1,1 @@
-//= admin/theme_assets.js
+//= require admin/theme_assets

@@ -1,3 +1,3 @@
-//= admin/plugins/json2.js
-//= admin/plugins/smartupdater.js
-//= admin/import.js
+//= require admin/plugins/json2
+//= require admin/plugins/smartupdater
+//= require admin/import

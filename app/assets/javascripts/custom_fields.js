@@ -1,3 +1,3 @@
-//= admin/plugins/fancybox.js
-//= admin/plugins/mustache.js
-//= admin/custom_fields.js
+//= require admin/plugins/fancybox
+//= require admin/plugins/mustache
+//= require admin/custom_fields

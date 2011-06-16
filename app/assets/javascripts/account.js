@@ -1,1 +1,1 @@
-//= admin/account.js
+//= require admin/account

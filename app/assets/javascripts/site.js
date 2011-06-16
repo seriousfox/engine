@@ -1,1 +1,1 @@
-//= admin/site.js
+//= require admin/site

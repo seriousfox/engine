@@ -1,1 +1,1 @@
-//= admin/snippets.js
+//= require admin/snippets
