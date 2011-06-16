@@ -1,8 +1,8 @@
 - title link_to(@asset_collection.name.blank? ? @asset_collection.name_was : @asset_collection.name, '#', :rel => 'asset_collection_name', :title => t('.ask_for_name'), :class => 'editable')
 
 - content_for :head do
-  = include_javascripts :asset_collections
-  = include_stylesheets :fancybox
+  = javascript_include_tag "asset_collections"
+  = stylesheet_link_tag "fancybox"
 
 - content_for :submenu do
   = render 'admin/shared/menu/assets'

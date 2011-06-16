@@ -1,6 +1,6 @@
 - content_for :head do
-  = include_javascripts :image_picker, :edit_page
-  = include_stylesheets :editable_elements, :fancybox
+  = javascript_include_tag "image_picker", "edit_page"
+  = stylesheet_link_tag "editable_elements", "fancybox"
 
 = f.foldable_inputs :name => :information do
 

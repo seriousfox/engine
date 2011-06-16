@@ -1,6 +1,6 @@
 - content_for :head do
-  = include_javascripts :content_types, :custom_fields
-  = include_stylesheets :fancybox
+  = javascript_include_tag "content_types", "custom_fields"
+  = stylesheet_link_tag "fancybox"
 
 = f.inputs :name => :information do
   = f.input :name
