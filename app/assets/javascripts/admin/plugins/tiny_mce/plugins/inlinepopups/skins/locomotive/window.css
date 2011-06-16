@@ -60,13 +60,13 @@
 .locomotive a.mceResizeSE {bottom:0; right:0; cursor:se-resize}
 
 /* Alert/Confirm */
-.locomotive .mceButton {font-weight:bold; bottom:10px; width:80px; height:30px; background:url(img/button.gif); line-height:30px; vertical-align:middle; text-align:center; outline:0}
+.locomotive .mceButton {font-weight:bold; bottom:10px; width:80px; height:30px; background:url(/assets/button.gif); line-height:30px; vertical-align:middle; text-align:center; outline:0}
 .locomotive .mceMiddle .mceIcon {left:15px; top:35px; width:32px; height:32px}
 .locomotive .mceAlert .mceMiddle span, .locomotive .mceConfirm .mceMiddle span {background:transparent;left:60px; top:35px; width:320px; height:50px; font-weight:bold; overflow:auto; white-space:normal}
 .locomotive a:hover {font-weight:bold;}
 .locomotive .mceAlert .mceMiddle, .locomotive .mceConfirm .mceMiddle {background:#D6D7D5}
 .locomotive .mceAlert .mceOk {left:50%; top:auto; margin-left: -40px}
-.locomotive .mceAlert .mceIcon {background:url(img/alert.gif)}
+.locomotive .mceAlert .mceIcon {background:url(/assets/alert.gif)}
 .locomotive .mceConfirm .mceOk {left:50%; top:auto; margin-left: -90px}
 .locomotive .mceConfirm .mceCancel {left:50%; top:auto}
-.locomotive .mceConfirm .mceIcon {background:url(img/confirm.gif)}
+.locomotive .mceConfirm .mceIcon {background:url(/assets/confirm.gif)}

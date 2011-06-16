@@ -209,7 +209,7 @@
 			h = h.replace(/<script[^>]*>\s*write(Flash|ShockWave|WindowsMedia|QuickTime|RealMedia)\(\{([^\)]*)\}\);\s*<\/script>/gi, function(a, b, c) {
 				var o = t._parse(c);
 
-				return '<img class="mceItem' + b + '" title="' + ed.dom.encode(c) + '" src="' + t.url + '/img/trans.gif" width="' + o.width + '" height="' + o.height + '" />'
+				return '<img class="mceItem' + b + '" title="' + ed.dom.encode(c) + '" src="' + t.url + '/assets/trans.gif" width="' + o.width + '" height="' + o.height + '" />'
 			});
 
 			h = h.replace(/<object([^>]*)>/gi, '<span class="mceItemObject" $1>');
@@ -348,7 +348,7 @@
 
 			// Create image
 			im = dom.create('img', {
-				src : this.url + '/img/trans.gif',
+				src : this.url + '/assets/trans.gif',
 				width : dom.getAttrib(n, 'width') || 100,
 				height : dom.getAttrib(n, 'height') || 100,
 				style : dom.getAttrib(n, 'style'),
