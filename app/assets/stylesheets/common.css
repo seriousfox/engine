@@ -1,12 +1,14 @@
-//= admin/blueprint/screen.css
-//= admin/layout.css
-//= admin/jquery/ui.css
-//= admin/plugins/toggle.css
-//= admin/plugins/selectmenu.css
-//= admin/menu.css
-//= admin/buttons.css
-//= admin/formtastic.css
-//= admin/formtastic_changes.css
-//= admin/assets.css
-//= admin/application.css
-//= admin/safari.css
+/*
+*= require admin/blueprint/screen
+*= require admin/layout
+*= require admin/jquery/ui
+*= require admin/plugins/toggle
+*= require admin/plugins/selectmenu
+*= require admin/menu
+*= require admin/buttons
+*= require admin/formtastic
+*= require admin/formtastic_changes
+*= require admin/assets
+*= require admin/application
+*= require admin/safari
+*/

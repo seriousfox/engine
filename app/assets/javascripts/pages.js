@@ -1,1 +1,1 @@
-//= admin/pages.js
+//= require admin/pages.js

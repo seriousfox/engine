@@ -1,3 +1,5 @@
-//= admin/blueprint/screen.css
-//= admin/box.css
-//= admin/safari.css
+/*
+*= require admin/blueprint/screen
+*= require admin/box
+*= require admin/safari
+*/
