@@ -51,7 +51,7 @@ module Admin::BaseHelper
     if not flash.empty?
       %{
         $(document).ready(function() {
-          $.growl("#{flash.keys.first}", "#{flash.values.first}");
+          $.growl("#{flash.to_hash.keys.first}", "#{flash.to_hash.values.first}");
         });
       }.to_s
     end
