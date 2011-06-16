@@ -4,7 +4,15 @@ source :rubygems
 
 gem 'rake', '0.8.7'
 
-gem 'rails', '>= 3.0.7'
+gem 'rails', '>= 3.1.0.rc3'
+
+# js lib
+gem "jquery-rails", "~> 1.0.11"
+
+# Asset template engines
+gem 'sass'
+gem 'coffee-script'
+gem 'uglifier'
 
 gem 'warden'
 gem 'devise', '= 1.1.3'
@@ -12,9 +20,9 @@ gem 'devise', '= 1.1.3'
 gem 'mongoid', '~> 2.0.2'
 gem 'bson_ext', '~> 1.3.0'
 gem 'locomotive_mongoid_acts_as_tree', '0.1.5.7', :require => 'mongoid_acts_as_tree'
-gem 'will_paginate'
+gem 'will_paginate', "~> 2.3.15"
 
-gem 'haml', '3.0.25'
+gem 'haml', '3.1.2'
 gem 'locomotive_liquid', '2.2.2', :require => 'liquid'
 gem 'formtastic', '~> 1.2.3'
 gem 'inherited_resources', '~> 1.1.2'
@@ -65,9 +73,12 @@ group :test do
   gem 'capybara'
 
   gem 'database_cleaner'
-  gem 'cucumber', '0.8.5'
+  gem 'cucumber', '0.10.3'
   gem 'cucumber-rails'
   gem 'spork'
   gem 'launchy'
   gem 'mocha', :git => 'git://github.com/floehopper/mocha.git'
+
+	# Pretty printed test output
+  gem 'turn', :require => false
 end
