@@ -2,8 +2,8 @@ module Admin::BoxHelper
 
   def box_flash_message
     if not flash.empty?
-      content_tag :div, flash.values.first,
-        :id => "flash-#{flash.keys.first}",
+      content_tag :div, flash.to_hash.values.first,
+        :id => "flash-#{flash.to_hash.keys.first}",
         :class => 'application-message'
     else
       ''
